@@ -1,0 +1,48 @@
+.movie-item {
+  position: relative;
+  display: block;
+  min-height: 325px;
+  border-radius: 5px;
+  background-color: #212121;
+  border: 1px solid #999;
+}
+
+.movie-item-image img {
+  width: 100%;
+  border-radius: 5px;
+  height: 275px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.movie-item-rating {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 10px;
+  left: 10px;
+  background-color: #212121;
+  padding: 5px 10px;
+}
+
+.movie-item-rating .app-icon {
+  margin-right: 5px;
+  color: #d4af37;
+}
+
+.movie-item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  margin: 0.5rem;
+  height: 30px;
+}
+/*# sourceMappingURL=movie-item.component.css.map */

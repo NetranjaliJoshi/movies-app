@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "tv-shows.component.scss"
+    ],
+    "names": [],
+    "file": "tv-shows.component.css"
+}
